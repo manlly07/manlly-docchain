@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CarteVitaleV1 = exports.BankAccountDetailsV2 = exports.BankAccountDetailsV1 = exports.IdCardV1 = void 0;
+var idCardV1_1 = require("./idCard/idCardV1");
+Object.defineProperty(exports, "IdCardV1", { enumerable: true, get: function () { return idCardV1_1.IdCardV1; } });
+var bankAccountDetailsV1_1 = require("./bankAccountDetails/bankAccountDetailsV1");
+Object.defineProperty(exports, "BankAccountDetailsV1", { enumerable: true, get: function () { return bankAccountDetailsV1_1.BankAccountDetailsV1; } });
+var bankAccountDetailsV2_1 = require("./bankAccountDetails/bankAccountDetailsV2");
+Object.defineProperty(exports, "BankAccountDetailsV2", { enumerable: true, get: function () { return bankAccountDetailsV2_1.BankAccountDetailsV2; } });
+var carteVitaleV1_1 = require("./carteVitale/carteVitaleV1");
+Object.defineProperty(exports, "CarteVitaleV1", { enumerable: true, get: function () { return carteVitaleV1_1.CarteVitaleV1; } });
